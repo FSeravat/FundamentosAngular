@@ -1,0 +1,5 @@
+<h2>Serviço 2</h2>
+<label for="nome">Digite a descrição do produto:</label>
+<input type="text" [(ngModel)]="descricao">
+<button type="button" (click)="this.logger.logar('O produto ' + this.descricao + ' foi adicionado')">Adicionar nome</button>
+<button type="button" (click)="this.logger.todosLogs()">Todos os logs</button>
